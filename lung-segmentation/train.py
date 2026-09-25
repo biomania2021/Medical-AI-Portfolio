@@ -7,8 +7,9 @@ import numpy as np
 from tqdm import tqdm
 
 # 先ほど作成した model.py から Medical3DCNN をインポート！
+#from segmentation.model import Medical3DCNN
+# train.py
 from segmentation.model import Medical3DCNN
-
 # ==========================================
 # 1. 医療画像用のカスタムDatasetクラス
 # ==========================================

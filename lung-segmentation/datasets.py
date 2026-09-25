@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import SimpleITK as sitk
 from tqdm import tqdm
-from monai.transforms import Compose, LoadImaged, Spacingd, EnsureChannelFirstd
+# from monai.transforms import Compose, LoadImaged, Spacingd, EnsureChannelFirstd
 from utils import extract_patch
 
 # ==========================================
