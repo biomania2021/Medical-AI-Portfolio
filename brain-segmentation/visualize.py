@@ -4,7 +4,7 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 import nibabel as nib
-
+ # update 
 from model import UNet
 
 def visualize_multiple_samples(model_path, data_dir, output_image_path="multi_slice_results.png", targets=None):
